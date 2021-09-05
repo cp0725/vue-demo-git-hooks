@@ -42,6 +42,6 @@
     "not dead"
   ],
   "gitHooks": {
-    "commit-msg": "node test.js"
+    "commit-msg": "npm run test"
   }
 }
