@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test": "node test.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -40,9 +39,5 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "gitHooks": {
-    "pre-commit": "npm run test",
-    "commit-msg": "npm run test"
-  }
+  ]
 }

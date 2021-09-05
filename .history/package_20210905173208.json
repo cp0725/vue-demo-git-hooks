@@ -42,7 +42,7 @@
     "not dead"
   ],
   "gitHooks": {
-    "pre-commit": "npm run test",
-    "commit-msg": "npm run test"
+    "pre-commit": "lint-staged",
+    "commit-msg": "node scripts/verify-commit-msg.js"
   }
 }
